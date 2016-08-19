@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
-
-def index
+before_action :authenticate_user!, except: [:index, :show]
+  def index
   @posts = Post.all.order("created_at DESC")
 end
 
@@ -32,6 +32,14 @@ end
       render 'edit'
   end
     end
+
+  def destroy
+    @post =  Post.find(params[:id])
+    @post.destroy
+
+    redirect_to root_path
+  end
+
   private
   def post_params
     params.require(:post).permit(:title, :body)

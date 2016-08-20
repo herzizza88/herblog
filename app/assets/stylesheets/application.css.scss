@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
 	text-decoration: none;
-	color: inherit;
+	color: #E3B029;
 }
 
 #sidebar {
@@ -19,9 +19,9 @@ a {
 	left: 0;
 	top: 0;
 	height: 100%;
-	background: #f5f7f9;
+	background: #ffe964;
 	padding: 7em 0 0 0;
-	border-right: 1px solid #d6dce0;
+	border-right: 2px solid #E3B029;
 	#logo {
 		width: 40px;
 		position: absolute;
@@ -41,7 +41,7 @@ a {
 		li {
 			padding: .5em 0;
 			a {
-				color: #9eafba;
+				color: #696969;
 				text-decoration: none;
 				transition: all .4s ease;
 				&:hover {
@@ -93,7 +93,7 @@ a {
 		padding: 1em 3em;
 		border-bottom: 0px;
 		background: white;
-		color: #9eafba;
+		color: #E3B029;
 		p {
 			display: inline;
 		}
@@ -118,7 +118,7 @@ a {
 			a {
 				font-weight: 500;
 				text-decoration: none;
-				color: #2a2f35;
+				color: #E3B029;
 				font-size: 1.5em;
 				&:hover {
 					color: #33acb7;
@@ -192,6 +192,8 @@ a {
 	}
 	#page_wrapper {
 		padding: 3em;
+    background: url("https://s4.postimg.org/4baln0vl9/flower.jpg");
+    vertical-align: bottom;
 		#profile_image {
 			width: 300px;
 			float: left;
@@ -247,3 +249,4 @@ a {
 		}
 	}
 }
+

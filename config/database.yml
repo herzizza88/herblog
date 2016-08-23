@@ -22,7 +22,7 @@
 default: &default
   #adapter: sqlite3
   adapter: postgresql
-    encoding: unicode
+  encoding: unicode
   pool: 5
   timeout: 5000
 

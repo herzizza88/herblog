@@ -193,7 +193,9 @@ a {
 	#page_wrapper {
 		padding: 3em;
     background: url("https://s4.postimg.org/4baln0vl9/flower.jpg");
-    vertical-align: bottom;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right bottom;
 		#profile_image {
 			width: 300px;
 			float: left;

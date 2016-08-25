@@ -2,10 +2,17 @@
 
 html, body {
 	font-family: 'Raleway', sans-serif;
+  text-align:center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
 	font-weight: 500;
+}
+
+h3{
+	font-weight: 500;
+  line-height: 50px;
+  border-bottom: 1px solid grey;
 }
 
 a {
@@ -89,13 +96,19 @@ a {
 
 #main_content {
 	margin-left: 300px;
+  margin-right: 100px;
 	#header {
 		padding: 1em 3em;
 		border-bottom: 0px;
 		background: white;
-		color: #E3B029;
+		color: black;
+    #banner {
+      margin-top:100px;
+
+
+    }
 		p {
-			display: inline;
+			display: block;
 		}
 		a {
 			color: #9eafba;
@@ -138,10 +151,12 @@ a {
 			color: #2a2f35;
 			font-size: 2.5em;
 			margin-bottom: 0;
+      text-align:center
 		}
 		.body {
 			font-size: 1.1em;
 			line-height: 1.75;
+      text-align:center;
 		}
 		.date_and_author {
 			color: #9eafba;

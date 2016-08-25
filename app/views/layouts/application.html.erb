@@ -14,6 +14,7 @@
       <% end %>
     </div>
 
+
     <ul>
 
       <li><%= link_to "Blog", root_path %> </li>
@@ -28,7 +29,7 @@
   <div id="main_content">
     <div id="header">
       <% if current_page?(root_path) %>
-      <p>All Posts</p>
+
       <% elsif current_page? (about_path) %>
       <p>About</p>
       <% else %>
@@ -40,7 +41,10 @@
         <button class="button"><%= link_to 'Log out', destroy_user_session_path, :method=>'delete' %></li>
 
       </div>
+
       <%end%>
+ <div id ="banner">
+      <%= image_tag "https://cdn.pbrd.co/images/cOLHrkK7X.jpg" %>
     </div>
 
 
